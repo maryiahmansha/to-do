@@ -16,7 +16,7 @@ const NewToDoForm = ({ onSubmit }) => {
                 <label htmlFor='item'>New Item</label>
                 <input type='text' id='item' value={newItem} onChange={(e) => { setNewItem(e.target.value) }} />
             </div>
-            <button className="btn">Add</button>
+            <button className="btn px-0.5">Add</button>
         </form>
     );
 }

@@ -38,6 +38,14 @@ input {
     margin-top: 20px;
 }
 
+.btn-delete {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    margin-top: 20px;
+}
+
 .to-do-checkList .header {
     display: grid;
     align-items: center;
@@ -61,4 +69,13 @@ li {
     display: grid;
     align-items: center;
     margin: auto;
+}
+
+.to-do-list-name {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 8px;
 }
